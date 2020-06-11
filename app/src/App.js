@@ -1,12 +1,12 @@
 import React from 'react';
-import './styles.css';
+import './index.css';
 
-import KanyeQuote from './components/KanyeQuote';
+import Quote from './components/quote';
 
 export default function App() {
   return (
     <div className="App">
-      <KanyeQuote />
+      <Quote />
     </div>
   );
 }

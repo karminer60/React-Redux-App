@@ -4,7 +4,7 @@ import Loader from 'react-loader-spinner';
 
 import { fetchQuote } from '../store/actions/quoteActions';
 
-const KanyeQuote = props => {
+const Quote = props => {
   useEffect(() => {
     // call an action creator
     props.fetchQuote();
@@ -39,4 +39,4 @@ const mapStateToProps = state => {
 export default connect(
   mapStateToProps,
   { fetchQuote }
-)(KanyeQuote);
+)(Quote);
